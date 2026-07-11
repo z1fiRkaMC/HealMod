@@ -1,3 +1,4 @@
 {
-  "item.healmod.life_steal_sword": "§5Похититель Душ"
+  "item.healmod.life_steal_sword": "§5Похититель Душ",
+  "itemGroup.healmod": "HealMod"
 }

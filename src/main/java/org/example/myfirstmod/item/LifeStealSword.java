@@ -4,6 +4,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemTier;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.SwordItem;
+import org.example.myfirstmod.registry.ModItemGroup;
 
 public class LifeStealSword extends SwordItem {
 
@@ -13,7 +14,7 @@ public class LifeStealSword extends SwordItem {
                 ItemTier.DIAMOND,
                 3,
                 -2.4F,
-                new Properties().tab(ItemGroup.TAB_COMBAT)
+                new Properties().tab(ModItemGroup.HEALMOD_TAB)
         );
 
     }
