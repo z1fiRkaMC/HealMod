@@ -5,7 +5,7 @@ import net.minecraft.command.CommandSource;
 import net.minecraft.command.Commands;
 import net.minecraft.command.arguments.EntityArgument;
 import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.TranslationTextComponent;
 
 public final class HealCommand {
 
@@ -25,7 +25,7 @@ public final class HealCommand {
                             heal(player);
 
                             context.getSource().sendSuccess(
-                                    new StringTextComponent("Вы полностью исцелены."),
+                                    new TranslationTextComponent("message.healmod.heal_command"),
                                     false
                             );
 
@@ -43,14 +43,15 @@ public final class HealCommand {
                                             heal(target);
 
                                             context.getSource().sendSuccess(
-                                                    new StringTextComponent(
-                                                            "Игрок " + target.getName().getString() + " исцелен."
+                                                    new TranslationTextComponent(
+                                                            "message.healmod.player_healed",
+                                                            target.getDisplayName()
                                                     ),
                                                     true
                                             );
 
                                             target.sendMessage(
-                                                    new StringTextComponent("Вы были исцелены."),
+                                                    new TranslationTextComponent("message.healmod.heal_command_you"),
                                                     target.getUUID()
                                             );
 

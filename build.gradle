@@ -15,7 +15,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 
 group = 'org.example'
-version = '1.1'
+version = '1.1r'
 archivesBaseName = 'HealMod'
 
 java {

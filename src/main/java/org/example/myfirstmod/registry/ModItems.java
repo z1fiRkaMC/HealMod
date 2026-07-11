@@ -4,7 +4,6 @@ import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.ObjectHolder;
 import org.example.myfirstmod.Main;
 import org.example.myfirstmod.item.LifeStealSword;
 

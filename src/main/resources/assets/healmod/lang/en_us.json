@@ -1,4 +1,8 @@
 {
   "item.healmod.life_steal_sword": "§5Life Steal Sword",
-  "itemGroup.healmod": "HealMod"
+  "itemGroup.healmod": "HealMod",
+  "message.healmod.life_steal": "§5✦ Life force stolen!",
+  "message.healmod.heal_command": "You are completely healed.",
+  "message.healmod.heal_command_you": "You have been healed.",
+  "message.healmod.player_healed": "Player %s healed"
 }

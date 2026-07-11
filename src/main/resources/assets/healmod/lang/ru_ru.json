@@ -1,4 +1,8 @@
 {
   "item.healmod.life_steal_sword": "§5Похититель Душ",
-  "itemGroup.healmod": "HealMod"
+  "itemGroup.healmod": "HealMod",
+  "message.healmod.life_steal": "§5✦ Жизненная сила похищена!",
+  "message.healmod.heal_command": "Вы полностью исцелены.",
+  "message.healmod.heal_command_you": "Вы были исцелены.",
+  "message.healmod.player_healed": "Игрок %s исцелен."
 }

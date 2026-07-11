@@ -5,7 +5,7 @@ import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.ModifiableAttributeInstance;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -52,7 +52,8 @@ public class AttackEventHandler {
         );
 
         player.sendMessage(
-                new StringTextComponent("§5✦ Жизненная сила похищена!"),
+                new 
+				TranslationTextComponent("message.healmod.life_steal"),
                 player.getUUID()
         );
     }
