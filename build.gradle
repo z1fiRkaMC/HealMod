@@ -1,0 +1,40 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:5.1.+'
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+apply plugin: 'net.minecraftforge.gradle'
+
+group = 'org.example'
+version = '1.0'
+archivesBaseName = 'HealMod'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(8)
+    }
+}
+
+repositories {
+    maven {
+        url = 'https://maven.minecraftforge.net'
+    }
+    mavenCentral()
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.16.5'
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.39'
+}

@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="healmod"
+version="1.0.0"
+displayName="HealMod"
+authors="z1fiRka"
+description='''
+Мой первый Forge мод.
+'''

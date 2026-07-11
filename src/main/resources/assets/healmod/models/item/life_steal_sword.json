@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "healmod:item/life_steal_sword"
+  }
+}
